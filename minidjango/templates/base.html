@@ -17,6 +17,7 @@
     <title>Keeg's Personal Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
     <div class="container">
         <!-- NAVBAR START -->
@@ -49,44 +50,44 @@
                 </ul>
             </div>
         </nav>
-{% comment %}             
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    {% for page in pages %}
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ page.output }}">{{ page.title }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
+        {% comment %}
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                {% for page in pages %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ page.output }}">{{ page.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
         </nav> {% endcomment %}
 
-{{ about|safe }}
-{{ photography|safe }}
-{{ projects|safe }}
-{{ contact|safe }}
-{{ index|safe }}
-{{ music|safe }}
+        {{ about|safe }}
+        {{ photography|safe }}
+        {{ projects|safe }}
+        {{ contact|safe }}
+        {{ index|safe }}
+        {{ music|safe }}
 
 
-<div class="jumbotron text-center" style=" margin-bottom: 0%;">
-    <div class="techfont">
-        Technologies:
-    </div>
-    <p>HTML CSS BOOTSTRAP</p>
-    <div class="row">
+        <div class="jumbotron text-center" style=" margin-bottom: 0%;">
+            <div class="techfont">
+                Technologies:
+            </div>
+            <p> PYTHON DJANGO HTML CSS BOOTSTRAP</p>
+            <div class="row">
 
-        <div class="col">
-            <div class="text-center"></div>
-            <a href="https://www.facebook.com/verbala" class="fa fa-facebook"></a>
-            <a href="https://www.linkedin.com/in/keegan-helmbrecht-11090b16/" class="fa fa-linkedin"></a>
-            <a href="http://www.instagram.com/verbala" class="fa fa-instagram"></a>
-            <a href="http://verbala.tumblr.com/" class="fa fa-tumblr"></a>
-            <a href="https://github.com/keegan-he" class="fa fa-github"></a>
+                <div class="col">
+                    <div class="text-center"></div>
+                    <a href="https://www.facebook.com/verbala" class="fa fa-facebook"></a>
+                    <a href="https://www.linkedin.com/in/keegan-helmbrecht-11090b16/" class="fa fa-linkedin"></a>
+                    <a href="http://www.instagram.com/verbala" class="fa fa-instagram"></a>
+                    <a href="http://verbala.tumblr.com/" class="fa fa-tumblr"></a>
+                    <a href="https://github.com/keegan-he" class="fa fa-github"></a>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-</div>
 
 </body>
 
