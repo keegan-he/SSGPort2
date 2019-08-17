@@ -1,10 +1,7 @@
-# django_site
+# Django Static Site Generator
 
-## Todo:
-* ~add cat gif to readme~
-* ~serve each page of content via django app~
-* ~host on heroku~
-* ~build API request package to host projects on website~
-* ~heroku implementation~
+## Run build.py to combine site content.
+
+## Todo: improve documentation
 
 ![me-ow](https://i.imgur.com/bA3Rn7E.gif)
